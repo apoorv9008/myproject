@@ -130,6 +130,15 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+#twilio settings
+
+TWILIO_DEFAULT_CALLERID = '+919755844519'
+
+TWILIO_ACCOUNT_SID = 'ACe7427ad6de1caf71d8cb3fbf3e19e9cf'
+
+TWILIO_AUTH_TOKEN = '4546a769aa845e8a26bbb701df00fc25'
+
+#allauth settings
 
 SOCIALACCOUNT_ENABLED = 'allauth.socialaccount' in settings.INSTALLED_APPS
 
